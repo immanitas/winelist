@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Since router deprecated withRouter, I added in case of class components, but never used. The code itself was on stackoverflow
 - Hooks are for easier typescript access for dispatch and selector, which is provided in react-redux documentation
 - Assets contains helper function to generate data and the data json file itself.
+- Added build file: wine-list.zip
 
 ## Images
 Images were taken from [Unsplash](https://unsplash.com/)
