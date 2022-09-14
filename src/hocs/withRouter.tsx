@@ -5,7 +5,10 @@ import {
   useParams
 } from 'react-router-dom';
 
-/** @deprecated Use `React Router hooks` instead */
+/**
+ * @deprecated Use `React Router hooks` instead
+ * Code found on stackoverflow, since this HOC was deprecated 
+ */
 export interface WithRouterProps {
   location: ReturnType<typeof useLocation>;
   params: Record<string, string>;

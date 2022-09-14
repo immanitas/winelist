@@ -3,7 +3,6 @@ import WineListItem from "../../components/wine/WineListItem"
 import data from '../../assets/data.json';
 import { RootState } from "../rootReducer";
 
-// Define a type for the slice state
 interface WineListState {
   data: WineListItem[]
 }
@@ -14,10 +13,8 @@ const initialState: WineListState = {
 
 export const wineListSlice = createSlice({
   name: 'wine-list',
-  // `createSlice` will infer the state type from the `initialState` argument
   initialState,
   reducers: {
-    // Use the PayloadAction type to declare the contents of `action.payload`
     addWine: (state, action: PayloadAction<WineListItem>) => {
       state.data.push(action.payload)
     },

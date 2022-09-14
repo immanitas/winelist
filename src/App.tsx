@@ -14,6 +14,7 @@ import store from './services/rootReducer';
 
 function App() {
   let theme = useTheme();
+  
   theme = {...theme, ...{
     components: {...theme.components, MuiLink: {
       defaultProps: {
