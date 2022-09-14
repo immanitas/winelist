@@ -15,6 +15,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Priorities
 
 I did not use API since most of the API required contacting the owner and asking manually the key. The main tasks were complete, the extra ones I did not focus on, and added search functionality for simple filtering. Also was polishing and checking GridV2 from MUI. In the beginning, I started doing tests. But then I checked out that I had no time for all the code challenges I was given, so I stopped them to be able to complete of them. 
+Since code is actually at cause here I didn't optimize static files.
+
+## Extracting compiled zip build
+By extracting file wine-list.zip, you can:
+ - `serve -s <dir>`
 
 ## Images
 Images were taken from [Unsplash](https://unsplash.com/)
