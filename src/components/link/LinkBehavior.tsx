@@ -5,7 +5,7 @@ export const LinkBehavior = React.forwardRef<
   HTMLAnchorElement,
   Omit<RouterLinkProp, 'to'> & { href: RouterLinkProp['to']; }
 >((props, ref) => {
-  const { href, ...other } = props;
+  const { style, href, ...other } = props;
   // Map href (MUI) -> to (react-router)
-  return <RouterLink ref={ref} to={href} {...other} />;
+  return <RouterLink style={{color: 'inherit', ...style}} ref={ref} to={href} {...other} />;
 });
