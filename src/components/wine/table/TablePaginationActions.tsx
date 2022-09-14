@@ -8,7 +8,7 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import LastPageIcon from '@mui/icons-material/LastPage';
 
 /**
- * 
+ * Mui example code on components page api for pagination.
  * @param props 
  * @returns 
  */
